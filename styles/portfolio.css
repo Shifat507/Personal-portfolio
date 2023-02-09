@@ -103,8 +103,9 @@ i {
 .future{
     background: #151414;
     color: #FFFFFF;
-    padding: 150px 230px;
+    padding: 150px 150px;
     display: flex;
+    justify-content: space-around;
 }
 .btn-subscribe {
     margin-top: 5px;
@@ -117,4 +118,35 @@ i {
 }
 input{
     background-color: #151414;
+}
+.future-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.user-info{
+    margin-top: 10px;
+}
+.social-accounts{
+    margin-top: 10px;
+}
+.social-accounts img{
+    padding-right: 10px;
+}
+.progression{
+    text-align: center;
+    margin: 90px auto;
+
+}
+.progression-title{
+    margin-bottom: 30px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+.progression-analysis{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
